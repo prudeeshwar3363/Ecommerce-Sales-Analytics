@@ -10,23 +10,28 @@ This project analyzes e-commerce sales and profitability using MySQL, Python, an
 - **Excel:** Dataset inspection and validation.
 
 ## Project Structure
+
 ```text
-Ecommerce-Sales-Profitability-Analytics/
+Ecommerce-Sales-Analytics/
 ├── README.md
-├── sql/
-│   ├── 00_setup.sql
-│   ├── 01_sales_profitability.sql
-│   ├── 02_regional_analysis.sql
-│   ├── 03_discount_analysis.sql
-│   ├── 04_customer_analysis.sql
-│   ├── 05_shipping_segment_analysis.sql
-│   └── 06_advanced_window_functions.sql
+├── Data/
+│   └── superstore.csv
+├── SQL/
+│   ├── setup.sql
+│   ├── sales_profitability.sql
+│   ├── regional_analysis.sql
+│   ├── discount_analysis.sql
+│   ├── customer_analysis.sql
+│   ├── shipping_segment_analysis.sql
+│   └── advanced_window_functions.sql
 ├── python/
 │   └── import_superstore.py
-└── powerbi/
-    ├── Ecommerce_Sales_Profitability.pbix
-    └── screenshots/
-        └── dashboard.png
+├── PowerBI/
+│   ├── Ecommerce_Sales_Profitability.pbix
+│   └── screenshots/
+│       └── dashboard.png
+└── docs/
+    └── insights_and_recommendations.md
 ```
 
 ## Business Questions
