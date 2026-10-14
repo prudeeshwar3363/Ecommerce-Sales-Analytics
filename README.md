@@ -45,8 +45,11 @@ Ecommerce-Sales-Profitability-Analytics/
 - The West region recorded the highest total sales and profit among the regions analyzed.
 - Some high-discount levels were associated with negative total profit.
 
-## Dashboard
-See `powerbi/screenshots/dashboard.png` for a preview of the Power BI dashboard.
+## Power BI Dashboard
+
+The dashboard presents e-commerce sales and profitability insights across product categories, regions, and discount levels.
+
+![Ecommerce Sales and Profitability Dashboard](PowerBI/screenshots/dashboard.png)
 
 ## How to Use
 1. Set up MySQL and create the project database.
